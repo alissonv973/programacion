@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/FotoFelipe.jpg">
+    <style>
+      *{/*Los parámetros aplicados aquí afectarán a toda la página*/
+        font-family: Times; /*Fuente de todo el documento*/
+        margin: 10px;  /*establece los márgenes de un elemento especificando entre 1 y 4 valores*/
+      }
+
+      header, footer { /*al incluir más de una etiqueta en un grupo, estos parámetros serán aplicados en ambas etiquetas*/
+        display: flex;/*establece los tipos de visualización interna y externa de un elemento*/
+        justify-content: center; /*justifica el contenido de la etiqueta*/
+        background-color: #58D68D ;
+        height: 50px;
+      }
+
+      #foto {
+        border-radius: 10px; /*crea un radio en los parámetros especificados*/
+        box-shadow: 15px; /*crea una sombrea interna en la imagen*/
+        float: right; /*ubica un elemento al lado izquierdo o derecho de su contenedor para aparecer a su costado*/
+        width: 200px;
+        height: 200px;
+      }
+
+      #navegador{
+        background-color: rgba(236, 247, 175);
+      }
+
+      #name:hover { /*el parámetro hover modifica la reacción de la página al contacto con el mouse*/
+        font-weight: bold; /*decide el grosor de cualquier línea o de cualquier fuente*/
+        color: white;
+      }
+
+      ol {
+        margin: 20px 0 0 -20px;
+        color: rgb(94, 84, 84);
+        font-size: 16px; /*tamaño de la fuente utilizada*/
+      }
+
+      a {
+        text-decoration: none; /*decide si al enlace se lo coloca con azul y subrayado*/
+        color: black;
+      }
+
+      a:hover {
+        font-weight: bold;
+        color: black;
+      }
+
+      a:active { /*active indica que si el enlace junto al que está, es presionado, se cumplirán ciertos parámetros en la misma*/
+         color: blue;
+      }
+
+      li {
+        margin-top: 12px;
+      }
+    </style>
+
+    <title>Trabajo Grupal 1</title>
+  </head>
+  <body>
+    <header>
+      <h2 id="name">Inteligencia Artificial (IA) y Aprendizaje Automático</h2>
+    </header>
+    <main>
+      <h1>Información </h1>
+    </main>
+    <nav id="navegador">
+      <ul>
+        <li><a href="index.html">Información</a></li>
+        <li><a href="estudios.html">Características principales
+        </a></li>
+        <li><a href="contacto.html">Asistentes Virtuales</a></li>
+        <li><a href="redes.html">IA Generativa</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <img id="foto" src="img/tecnologia.jpeg" width="300" height="200" class="foto" />
+      <hr>
+      <br>
+      <br>
+      <p>La Inteligencia Artificial es un campo que permite a las máquinas imitar capacidades
+         humanas como la toma de decisiones, el reconocimiento de patrones y la resolución de problemas complejos. 
+         En tanto, el Aprendizaje Automático es una subcategoría
+         de la IA que permite a las máquinas aprender de los datos y mejorar su rendimiento sin programación específica.</p>
+         <br>
+         <br>
+         <br>
+         <br>
+    </aside>
+    <footer>
+      <p id="direccion">
+        Integrantes: Gualan Diego, Marin Mishell <span>4to "B"</span>
+        <span>Msc. Victor Zapata</span>
+      </p>
+    </footer>
+  </body>
+</html>
